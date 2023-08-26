@@ -1,4 +1,4 @@
-# Scrapy settings for vncovid19 project
+# Scrapy settings for scrapy_project project
 #
 # For simplicity, this file contains only settings considered important or
 # commonly used. You can find more settings consulting the documentation:
@@ -7,14 +7,14 @@
 #     https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #     https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 
-BOT_NAME = "vncovid19"
+BOT_NAME = "scrapy_project"
 
-SPIDER_MODULES = ["vncovid19.spiders"]
-NEWSPIDER_MODULE = "vncovid19.spiders"
+SPIDER_MODULES = ["scrapy_project.spiders"]
+NEWSPIDER_MODULE = "scrapy_project.spiders"
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "vncovid19 (+http://www.yourdomain.com)"
+#USER_AGENT = "scrapy_project (+http://www.yourdomain.com)"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
@@ -45,13 +45,13 @@ ROBOTSTXT_OBEY = True
 # Enable or disable spider middlewares
 # See https://docs.scrapy.org/en/latest/topics/spider-middleware.html
 #SPIDER_MIDDLEWARES = {
-#    "vncovid19.middlewares.Vncovid19SpiderMiddleware": 543,
+#    "scrapy_project.middlewares.scrapy_projectSpiderMiddleware": 543,
 #}
 
 # Enable or disable downloader middlewares
 # See https://docs.scrapy.org/en/latest/topics/downloader-middleware.html
 #DOWNLOADER_MIDDLEWARES = {
-#    "vncovid19.middlewares.Vncovid19DownloaderMiddleware": 543,
+#    "scrapy_project.middlewares.scrapy_projectDownloaderMiddleware": 543,
 #}
 
 # Enable or disable extensions
@@ -63,7 +63,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 #ITEM_PIPELINES = {
-#    "vncovid19.pipelines.Vncovid19Pipeline": 300,
+#    "scrapy_project.pipelines.scrapy_projectPipeline": 300,
 #}
 
 # Enable and configure the AutoThrottle extension (disabled by default)

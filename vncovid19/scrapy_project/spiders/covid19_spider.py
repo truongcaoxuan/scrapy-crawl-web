@@ -1,9 +1,9 @@
 import scrapy
 import re
-from vncovid19.no_accent_vietnamese import no_accent_vietnamese
+from scrapy_project.no_accent_vietnamese import no_accent_vietnamese
     
 class Covid19Spider(scrapy.Spider):
-    name = "covid19"
+    name = "covid19_spider"
     allowed_domains = ["web.archive.org"]
     start_urls = ["https://web.archive.org/web/20210907023426/https://ncov.moh.gov.vn/vi/web/guest/dong-thoi-gian"]
     

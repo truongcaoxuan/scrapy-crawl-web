@@ -8,6 +8,6 @@
 from itemadapter import ItemAdapter
 
 
-class Vncovid19Pipeline:
+class scrapy_projectPipeline:
     def process_item(self, item, spider):
         return item
