@@ -11,6 +11,7 @@ Example for Cotent on Website
 ![vn-covid19-web-content](vncovid19-web-content.png)
 
 Extract and Transform data to Json format
+
 ![vn-covid19-web-scrapy](vncovid19-web-crawl.png)
 
 ## Run command
