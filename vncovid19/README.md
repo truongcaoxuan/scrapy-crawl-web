@@ -7,6 +7,7 @@ Crawl data from Vncovid19 Website
 URL: <http://web.archive.org/web/20210907023426/https://ncov.moh.gov.vn/vi/web/guest/dong-thoi-gian>
 
 Example for Cotent on Website
+
 ![vn-covid19-web-content](vncovid19-web-content.png)
 
 Extract and Transform data to Json format
@@ -29,6 +30,8 @@ Project structure
       |__ __init__.py
       |__ covid19_spider.py
 ```
+
+Run command below to get result
 
 ```shell
 cd scrapy-crawl-web\vncovid19\
