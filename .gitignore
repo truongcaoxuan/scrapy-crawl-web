@@ -1,0 +1,7 @@
+.vscode
+__pycache__
+public/
+venv
+covid19-crawler
+twitter_hashtag_crawler
+books
